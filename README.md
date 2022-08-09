@@ -1,1 +1,5 @@
-# Liquid-Matrix-Segmentation-
+# Liquid-Matrix-Segmentation
+Решается задача семантической сегментации, а именно сегментации жидкой матрицы на образце углелпастика. Пример входных данных и масок представлены в папке data/imgs, data/masks соответственно
+
+- Для разметки данных использовалось https://github.com/hkchengrex/MiVOS
+- Для решения задачи сегментации использовалась архитектура Unet, реализация была заимствована https://github.com/milesial/Pytorch-UNet
